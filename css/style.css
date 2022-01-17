@@ -14,7 +14,7 @@ header {
 .logo {
     display: inline-block;
     padding: 15px 0 0 15px;
-    
+    padding-left: 150px;
 }
 
 .logo-img {
@@ -31,16 +31,62 @@ header {
 /* Main */
 
 main {
-    background-color: #f6f8f9;;
+    background-color: #000;
+}
+
+hr {
+    border: 1px solid #f6f8f9;
 }
 
 .container{
+    background-color: #f6f8f9;
+    padding: 10px;
+}
+
+.buttons {
+    padding: 10px 50px;
+}
+
+.mini-c {
+    margin: auto 300px;
+    border-radius: 5px;
     background-color: #fff;
 }
 
+#add-t{
+    text-decoration: none;
+    border: none;
+    background-color: #47adf1;
+    color: white;
+    border-radius: 4px;
+    padding: 3.5px;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+#add-s{
+    text-decoration: none;
+    border: 2px solid#ccd1d5;
+    background-color: #fff;
+    color: #ccd1d5;
+    border-radius: 4px;
+    padding: 1.9px;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+
+
+
 /* ------------------ Debug */
 
-.buttons {
-    height: 200px;
-    margin: 100px auto;
-}
+
+/* button {
+    text-decoration: none;
+    border: none;
+    background-color: #47adf1;
+    color: white;
+    border-radius: 3px;
+    padding: 3.5px;
+    font-size: 11px;
+} */
