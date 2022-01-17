@@ -5,6 +5,10 @@
     font-family: 'Lato', sans-serif;
 }
 
+html {
+    background-color: #f6f8f9;
+}
+
 /* Header */
 
 header {
@@ -30,10 +34,6 @@ header {
 }
 
 /* Main */
-
-main {
-    background-color: #000;
-}
 
 section {
     padding: 12px 45px;
